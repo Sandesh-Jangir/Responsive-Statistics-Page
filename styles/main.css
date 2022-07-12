@@ -76,8 +76,26 @@ body{
     font-weight: 600;
     font-size: 1.5rem;
 }
+footer{
+    position: fixed;
+    bottom: 0px;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    background-color: #1c1938;
+    color: white;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+footer a{
+    color: #a357d3;
+    text-decoration: none;
+}
 
 @media (max-width:1090px) {
+    body{
+        height: 155vh;
+    }
     .container{
         flex-direction: column-reverse;
         height: 130vh;
